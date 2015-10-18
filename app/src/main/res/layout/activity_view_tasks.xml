@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tasks_title"
+        android:text="@string/tasks"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         />
+    <ListView
+        android:id="@+id/android:list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tasks_title"
+        android:layout_above="@+id/add_button"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/android:empty"
+        android:text="@string/no_tasks"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_below="@id/tasks_title"
+        android:layout_above="@id/add_button"/>
+
+
+    <Button
+        android:id="@+id/add_button"
+        android:text="@string/add_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+         />
+    <Button
+        android:id="@+id/take_picture"
+        android:text="@string/take_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/add_button"
+        android:layout_alignParentBottom="true"
+        />
+    <Button
+        android:id="@+id/edit_button"
+        android:text="@string/edit_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        />
+    <Button
+        android:id="@+id/remove_button"
+        android:text="@string/remove_complete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/take_picture"
+        android:layout_alignParentBottom="true"
+        />
+
+
+
+</RelativeLayout>

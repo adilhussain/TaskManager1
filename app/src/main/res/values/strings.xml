@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Jaguar Task Manager</string>
+    <string name="tasks">Tasks</string>
+    <string name="get_me_in">Secure</string>
+    <string name="add_task">Add Tasks</string>
+    <string name="task_name">Add Tasks</string>
+    <string name="unsaved_changes_title">Heyy Heyy Heyy</string>
+    <string name="image_success">success</string>
+    <string name="image_failure">Fail!</string>
+    <string name="image_success_msg">Picture taken successfully</string>
+    <string name="image_failure_msg">Picture not taken!</string>
+    <string name="unsaved_changes_message">You\'ve got some unsettled business..</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="back">Back</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="okay">Okay</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="cancel">cancel</string>
+    <string name="no_tasks">No Tasks</string>
+    <string name="remove_complete">Remove Complete</string>
+    <string name="discard">discard</string>
+</resources>
